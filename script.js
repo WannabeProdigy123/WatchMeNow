@@ -4,7 +4,7 @@ const dots = document.querySelectorAll('.dot');
 const imageContainer = document.querySelector('.image-container');
 const content = document.querySelector('.content');
 
-const backgroundColors = ['#000', '#4b3b00', '#2c3e50', '#1f1f1f'];
+//const backgroundColors = ['#000', '#4b3b00', '#2c3e50', '#1f1f1f'];
 const textColors = ['#fff', '#ffd700', '#ecf0f1', '#b76e78'];
 
 function showImage(index) {
@@ -25,7 +25,7 @@ function showImage(index) {
   });
 
   // Update background color and text color
-  imageContainer.style.backgroundColor = backgroundColors[index];
+  //imageContainer.style.backgroundColor = backgroundColors[index];
   content.style.color = textColors[index];
 }
 dots.forEach((dot, index) => {
